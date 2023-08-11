@@ -1410,9 +1410,9 @@ If you offer a hardware kit using this software, show your appreciation by sendi
 
 
 
-#if defined(HARDWARE_OPENCWKEYER_MK3)
-  #include "keyer_features_and_options_opencwkeyer_mk3.h"
-#elif defined(HARDWARE_OPENCWKEYER_MK2)  
+// #if defined(HARDWARE_OPENCWKEYER_MK3)
+//   #include "keyer_features_and_options_opencwkeyer_mk3.h"
+#if defined(HARDWARE_OPENCWKEYER_MK2)  
   #include "keyer_features_and_options_opencwkeyer_mk2.h"
 #elif defined(HARDWARE_NANOKEYER_REV_B)
   #include "keyer_features_and_options_nanokeyer_rev_b.h"
@@ -1469,10 +1469,10 @@ If you offer a hardware kit using this software, show your appreciation by sendi
 #include "keyer_debug.h"
 
 
-#if defined(HARDWARE_OPENCWKEYER_MK3)
-  #include "keyer_pin_settings_opencwkeyer_mk3.h"
-  #include "keyer_settings_opencwkeyer_mk3.h"
-#elif defined(HARDWARE_OPENCWKEYER_MK2)
+// #if defined(HARDWARE_OPENCWKEYER_MK3)
+//   #include "keyer_pin_settings_opencwkeyer_mk3.h"
+//   #include "keyer_settings_opencwkeyer_mk3.h"
+#if defined(HARDWARE_OPENCWKEYER_MK2)
   #include "keyer_pin_settings_opencwkeyer_mk2.h"
   #include "keyer_settings_opencwkeyer_mk2.h"
 #elif defined(HARDWARE_NANOKEYER_REV_B)
